@@ -92,9 +92,34 @@
 
 /*  */
 
+body {
+    background-image: url(../assets/vapeBackground.jpg);
+}
+
 .homePage {
     text-align: center;
 }
+
+.logoIcon {
+    max-width: 10%;
+    margin-right: 3%;
+}
+
+
+/* .navBack {
+    background: #CCC;
+    opacity: .5;
+} */
+
+.navbar {
+    background-color: #ffffff;
+    opacity: .5;
+}
+
+
+/* .nav-link {
+
+} */
 
 
 /*  */
