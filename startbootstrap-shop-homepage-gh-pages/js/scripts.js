@@ -1,16 +1,66 @@
-/*!
- * Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
- * Copyright 2013-2023 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
- */
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+$(document).ready(function() {
 
-document.getElementById("body").onscroll = function myFunction() {
-    var scrolltotop = document.scrollingElement.scrollTop;
-    var target = document.getElementById("main1");
-    var xvalue = "center";
-    var factor = 0.5;
-    var yvalue = scrolltotop * factor;
-    target.style.backgroundPosition = xvalue + " " + yvalue + "px";
-}
+    $('div.bigCard').hide();
+
+});
+
+
+$(document).ready(function() {
+    // Add click event listener to the hide button
+    $('#domBtn').click(function() {
+        // Hide the element with id="elementToHide"
+
+        $('#allCards').hide();
+        $('#domDisp').show();
+    });
+});
+
+$(document).ready(function() {
+    // Add click event listener to the hide button
+    $('#fifBtn').click(function() {
+        // Hide the element with id="elementToHide"
+
+        $('#allCards').hide();
+        $('#fifDisp').show();
+    });
+});
+
+$(document).ready(function() {
+    // Add click event listener to the hide button
+    $('#pulBtn').click(function() {
+        // Hide the element with id="elementToHide"
+
+        $('#allCards').hide();
+        $('#pulDisp').show();
+    });
+});
+
+$(document).ready(function() {
+    // Add click event listener to the hide button
+    $('#pulxBtn').click(function() {
+        // Hide the element with id="elementToHide"
+
+        $('#allCards').hide();
+        $('#pulxDisp').show();
+    });
+});
+
+$(document).ready(function() {
+    // Add click event listener to the hide button
+    $('#ultBtn').click(function() {
+        // Hide the element with id="elementToHide"
+
+        $('#allCards').hide();
+        $('#ultDisp').show();
+    });
+});
+
+$(document).ready(function() {
+    // Add click event listener to the hide button
+    $('a.showAll').click(function() {
+        // Hide the element with id="elementToHide"
+
+        $('#allCards').show();
+        $('div.bigCard').hide();
+    });
+});

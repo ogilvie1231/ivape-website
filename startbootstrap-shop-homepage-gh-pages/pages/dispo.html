@@ -8,13 +8,12 @@
     <meta name="author" content="" />
     <title>Shop Homepage - Start Bootstrap Template</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="../css/style2.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -55,9 +54,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/mods.html">Mods</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/dispo.html">Disposables</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,8 +65,121 @@
         </div>
     </nav>
     <div>
-        <h2>DISPOSABLE</h2>
+        <h2>Disposables</h2>
     </div>
+    <div>
+        <div class="container">
+            <h1 class="my-4 text-center">Responsive Bootstrap Cards</h1>
+
+            <!-- Card rows -->
+            <div id="allCards" class="row">
+                <!-- Card 1 -->
+                <div id="" class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/disp/dominion.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="card-title">Evo Dominion</h2>
+                            <p class="card-text">16,000 Puffs</p>
+                            <a href="#" id="domBtn" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/disp/fifty.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="card-title">Fifty Bars</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" id="fifBtn" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/disp/pulse.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="card-title">Geek Vape Pulse Bars</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" id="pulBtn" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/disp/pulsex.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="card-title">Geek Vape Pulse X Bars</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" id="pulxBtn" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/disp/ultra boost.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h2 class="card-title">Ultra Pro Boost Bars</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" id="ultBtn" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- /.row -->
+            </div>
+            <div>
+                <div id="domDisp" class="card bigCard">
+                    <img class="card-img-top cardView" src="../assets/images/disp/dominion.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Dominion bars</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary showAll">Show All</a>
+                    </div>
+                </div>
+                <div id="fifDisp" class="card bigCard">
+                    <img class="card-img-top cardView" src="../assets/images/disp/fifty.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Fifty Bar</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary showAll">Show All</a>
+                    </div>
+                </div>
+                <div id="pulDisp" class="card bigCard">
+                    <img class="card-img-top cardView" src="../assets/images/disp/pulse.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Geek Vape Pulse Bars</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary showAll">Show All</a>
+                    </div>
+                </div>
+                <div id="pulxDisp" class="card bigCard">
+                    <img class="card-img-top cardView" src="../assets/images/disp/pulsex.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Geek Vape Pulse X Bars</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary showAll">Show All</a>
+                    </div>
+                </div>
+                <div id="ultDisp" class="card bigCard">
+                    <img class="card-img-top cardView" src="../assets/images/disp/ultra boost.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Ultra Boost Pro Bars</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary showAll">Show All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+<script src="../js/scripts.js"></script>
 
 </html>
